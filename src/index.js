@@ -35,5 +35,5 @@ function checkTheme() {
     }
 }
 function createMenuCards(cards) {
-    return cards.map(dishCardTpl).join('');
+	return dishCardTpl(cards);
 }
